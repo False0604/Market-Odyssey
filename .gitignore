@@ -1,0 +1,13 @@
+# Machine-specific DB credentials
+config/db.local.php
+
+# User uploads and the admin audit log (runtime data)
+uploads/*
+!uploads/index.php
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
